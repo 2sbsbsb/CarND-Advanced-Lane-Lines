@@ -1,9 +1,3 @@
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Advanced Lane Finding Project**
 
 The goals / steps of this project are the following:
@@ -35,11 +29,21 @@ The goals / steps of this project are the following:
 
 ### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
-
-You're reading it!
-
 ### Camera Calibration
+
+For camera calibration, I used all the chess board images provided with the project. 
+
+Populated objectPoints (#3d points in real world space) and imgPoints (corresponding 2D points in image plane) using the function findChessboardCorners of cv2 library. 
+
+Once these image points and object points were populated used calibratedCamera to calibrate the camera. 
+
+It is present in the following section of Advanced-Lane-Lines notebook. 
+
+"Compute the camera calibration matrix and distortion coefficients given a set of chessboard images" 
+
+There after a wrote a function in the section "Test distortion correction" to convert all the test images to undistored form.  
+
+
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
