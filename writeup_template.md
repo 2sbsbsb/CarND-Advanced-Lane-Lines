@@ -19,10 +19,12 @@ The goals / steps of this project are the following:
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
+[Output Images]: ./output_images/final_result.png "Final Result"
 [video1]: ./project_video.mp4 "Video"
 [Project video output]: ./project_video_output.mp4 "Project video Output"
 [Challenger video Output]: ./challenger_video_output.mp4 "Challenger video Output"
 [Harder Challenger video Output]: ./harder_video_output.mp4 "Harder Challenger video Output"
+
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -111,9 +113,9 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+I implemented this step in # Finding the lines # section of the code in my code. Here is an example of my result on a test image:
 
-![alt text][image6]
+![alt text][Output Images]
 
 ---
 
