@@ -121,11 +121,11 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Please find the link to my video's output
+Please find the link to my video's output. Each video is subclip of 10 seconds.
 
 [Project video output]
 
-[Challenger video Output]
+[Challenger video Output]  
 
 [Harder Challenger video Output]
 
@@ -135,7 +135,4 @@ Please find the link to my video's output
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-
-
-
-
+Exercise present within the tutorial helped me to understand the concept though I admit that had to go through each section multiple times. I put more emphasis to sturcutre my program with more functions rather than writing it as a proecedural program. Selecting the threshold values gradients and  channels combination for color and sobel gradient was challenging and though it worked perfectly for project video, it didn't worked for challenging and higher challengers video. I will need to revisit my solution so that it works for challenging videos too.
