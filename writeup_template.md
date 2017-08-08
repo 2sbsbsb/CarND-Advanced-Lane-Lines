@@ -20,6 +20,7 @@ The goals / steps of this project are the following:
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
 [Output Images]: ./output_images/final_result.png "Final Result"
+[fit_output]: ./output_images/fit_output.png "fit warp"
 [video1]: ./project_video.mp4 "Video"
 [Project video output]: ./project_video_output.mp4 "Project video Output"
 [Challenger video Output]: ./challenger_video_output.mp4 "Challenger video Output"
@@ -103,9 +104,9 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
+I used the sliding window technique introduced in our class. It is present under def fit_binary_warped under ### Perspective Transformation ## 
 
-![alt text][image5]
+[fit_output]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
