@@ -20,6 +20,9 @@ The goals / steps of this project are the following:
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
+[Project video output]: ./project_video_output.mp4 "Project video Output"
+[Challenger video Output]: ./challenger_video_output.mp4 "Challenger video Output"
+[Harder Challenger video Output]: ./harder_video_output.mp4 "Harder Challenger video Output"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -42,8 +45,6 @@ It is present in the following section of Advanced-Lane-Lines notebook.
 "Compute the camera calibration matrix and distortion coefficients given a set of chessboard images" 
 
 There after a wrote a function in the section "Test distortion correction" to convert all the test images to undistored form.  
-
-
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
@@ -120,7 +121,13 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Please find the link to my video's output
+
+[Project video output]
+
+[Challenger video Output]
+
+[Harder Challenger video Output]
 
 ---
 
@@ -128,4 +135,7 @@ Here's a [link to my video result](./project_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+
+
+
+
