@@ -19,6 +19,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
+[combined_binary]: ./output_images/combined_binary "Combined Binary"
 [Output Images]: ./output_images/final_result.png "Final Result"
 [fit_output]: ./output_images/fit_output.png "fit warp"
 [video1]: ./project_video.mp4 "Video"
@@ -64,11 +65,14 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-![alt text][image2]
+![alt text][combined_binary]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step.  (note: this is not actually from one of the test images)
+I used a combination of color and gradient thresholds to generate a binary image 
+It is present in section """Use color transforms, gradients, etc., to create a thresholded binary image"""
+
+Here's an example of my output for this step. 
 
 ![alt text][image3]
 
@@ -90,7 +94,7 @@ The sample image is present in """ Perspective Transform """ section.
 
 I used the sliding window technique introduced in our class. It is present under def fit_binary_warped under ### Perspective Transformation ## 
 
-![alt text] [fit_output]
+[fit_output]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
