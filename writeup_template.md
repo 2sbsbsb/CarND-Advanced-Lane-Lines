@@ -113,7 +113,7 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in # Finding the lines # section of the code in my code. Here is an example of my result on a test image:
+I implemented this step in # Finding the lines # section of the code in my code. Here is an example of my result on a test image. This is also present in the notebook under the same section.
 
 ![alt text][Output Images]
 
